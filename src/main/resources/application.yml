@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-boot-v3-security-sample
+  security:
+    user:
+      name: admin
+      password: admin
+  profiles:
+    active: dev
