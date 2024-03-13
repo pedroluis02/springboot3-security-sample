@@ -16,9 +16,8 @@ import org.springframework.web.bind.annotation.RestController
 class AccountController(private val repository: AccountRepository) {
 
     @GetMapping("/{id}/contacts")
-    fun findContactsBy(@PathVariable id: String):
-            ResponseEntity<List<AccountDto>> {
-        val contacts = repository.findAllById(id);
+    fun findContactsBy(@PathVariable id: String): ResponseEntity<List<AccountDto>> {
+        val contacts = repository.findAllById(id)
         val dto = contacts.mapToList(Account::toDto)
         return ResponseEntity.ok(dto)
     }
