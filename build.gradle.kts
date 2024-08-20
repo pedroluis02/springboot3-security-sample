@@ -25,6 +25,10 @@ dependencies {
     implementation(libs.springframework.boot.starter.web)
     implementation(libs.springframework.boot.starter.security)
 
+    implementation(libs.jsonwebtoken.jjwt.api)
+    implementation(libs.jsonwebtoken.jjwt.impl)
+    implementation(libs.jsonwebtoken.jjwt.jackson)
+
     testImplementation(libs.springframework.boot.starter.test)
 }
 

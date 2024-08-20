@@ -1,15 +1,21 @@
 [versions]
 kotlin = "1.9.21"
+jackson-kt = "2.17.1"
 spring-boot = "3.2.1"
 spring-dependency-management = "1.1.4"
-jackson-kt = "2.17.1"
+jwt = "0.12.6"
 
 [libraries]
-fasterxml-jackson-kotlin = { group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin", version.ref = "jackson-kt" }
 jetbrains-kotlin-reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version.ref = "kotlin" }
+fasterxml-jackson-kotlin = { group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin", version.ref = "jackson-kt" }
+
 springframework-boot-starter-web = { group = "org.springframework.boot", name = "spring-boot-starter-web" }
 springframework-boot-starter-security = { group = "org.springframework.boot", name = "spring-boot-starter-security" }
 springframework-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test" }
+
+jsonwebtoken-jjwt-api = { group = "io.jsonwebtoken", name = "jjwt-api", version.ref = "jwt" }
+jsonwebtoken-jjwt-impl = { group = "io.jsonwebtoken", name = "jjwt-impl", version.ref = "jwt" }
+jsonwebtoken-jjwt-jackson = { group = "io.jsonwebtoken", name = "jjwt-jackson", version.ref = "jwt" }
 
 [plugins]
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
