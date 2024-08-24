@@ -1,2 +1,8 @@
 server:
   port: 8081
+
+app:
+  security:
+    jwt:
+      secret: ${SECRET}
+      expiration: 86400000
