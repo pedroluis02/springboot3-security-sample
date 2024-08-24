@@ -9,6 +9,7 @@ plugins {
 
 group = "com.github.pedroluis02.springbootsamples"
 version = "0.0.1-SNAPSHOT"
+description = "SpringBoot v3 Security v6 Sample"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_21
