@@ -1,2 +1,3 @@
 # SpringBoot3 Security Sample
-SpringBoot Version 3 with Security
+
+SpringBoot version 3 with Security version 6
