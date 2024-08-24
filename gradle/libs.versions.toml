@@ -1,8 +1,8 @@
 [versions]
-kotlin = "1.9.21"
-jackson-kt = "2.17.1"
-spring-boot = "3.2.1"
-spring-dependency-management = "1.1.4"
+kotlin = "1.9.25"
+jackson-kt = "2.17.2"
+spring-boot = "3.3.3"
+spring-dependency-management = "1.1.6"
 jwt = "0.12.6"
 
 [libraries]
