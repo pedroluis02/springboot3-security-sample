@@ -1,6 +1,5 @@
 package com.github.pedroluis02.springsecuritysample.apirestful.controller
 
-import com.github.pedroluis02.springsecuritysample.apirestful.dto.AccountDto
 import com.github.pedroluis02.springsecuritysample.apirestful.mapper.mapToList
 import com.github.pedroluis02.springsecuritysample.apirestful.mapper.toDto
 import com.github.pedroluis02.springsecuritysample.domain.model.Account
@@ -16,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController
 class AccountController(private val repository: AccountRepository) {
 
     @GetMapping("/{id}/contacts")
-    fun findContactsBy(@PathVariable id: String): ResponseEntity<List<AccountDto>> {
+    fun findContactsBy(@PathVariable id: String): ResponseEntity<*> {
         val contacts = repository.findAllById(id)
         val dto = contacts.mapToList(Account::toDto)
         return ResponseEntity.ok(dto)
