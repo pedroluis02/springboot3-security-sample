@@ -1,6 +1,5 @@
 package com.github.pedroluis02.springsecuritysample.security
 
-import com.github.pedroluis02.springsecuritysample.config.JwtSecurityProps
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.security.Keys
 import org.springframework.security.core.userdetails.UserDetails

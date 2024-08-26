@@ -1,5 +1,6 @@
 package com.github.pedroluis02.springsecuritysample.config
 
+import com.github.pedroluis02.springsecuritysample.security.JwtSecurityProps
 import com.github.pedroluis02.springsecuritysample.security.UserDetailsServiceImpl
 import com.github.pedroluis02.springsecuritysample.service.UserService
 import org.springframework.boot.context.properties.EnableConfigurationProperties

@@ -1,4 +1,4 @@
-package com.github.pedroluis02.springsecuritysample.config
+package com.github.pedroluis02.springsecuritysample.security
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 
