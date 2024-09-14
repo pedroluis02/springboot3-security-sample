@@ -2,7 +2,7 @@ package com.github.pedroluis02.springsecuritysample.apirestful.controller
 
 import com.github.pedroluis02.springsecuritysample.apirestful.dto.LoginRequestDto
 import com.github.pedroluis02.springsecuritysample.apirestful.dto.LoginResultDto
-import com.github.pedroluis02.springsecuritysample.service.AuthService
+import com.github.pedroluis02.springsecuritysample.domain.service.AuthService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody

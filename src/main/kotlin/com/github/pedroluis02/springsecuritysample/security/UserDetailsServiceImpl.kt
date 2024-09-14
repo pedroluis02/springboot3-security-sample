@@ -1,14 +1,15 @@
 package com.github.pedroluis02.springsecuritysample.security
 
 import com.github.pedroluis02.springsecuritysample.domain.model.User
-import com.github.pedroluis02.springsecuritysample.service.UserService
+import com.github.pedroluis02.springsecuritysample.domain.service.UserService
 import org.springframework.security.core.userdetails.UserDetails
 import org.springframework.security.core.userdetails.UserDetailsService
 import org.springframework.security.core.userdetails.UsernameNotFoundException
 import org.springframework.stereotype.Component
+import org.springframework.stereotype.Service
 import org.springframework.security.core.userdetails.User as UserDetailsImpl
 
-@Component
+@Service
 class UserDetailsServiceImpl(private val service: UserService) : UserDetailsService {
 
     override fun loadUserByUsername(username: String): UserDetails {
