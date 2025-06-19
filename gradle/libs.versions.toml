@@ -4,6 +4,7 @@ jackson-kt = "2.17.2"
 spring-boot = "3.3.3"
 spring-dependency-management = "1.1.6"
 jwt = "0.12.6"
+mockito-kt = "5.4.0"
 
 [libraries]
 jetbrains-kotlin-reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version.ref = "kotlin" }
@@ -11,7 +12,10 @@ fasterxml-jackson-kotlin = { group = "com.fasterxml.jackson.module", name = "jac
 
 springframework-boot-starter-web = { group = "org.springframework.boot", name = "spring-boot-starter-web" }
 springframework-boot-starter-security = { group = "org.springframework.boot", name = "spring-boot-starter-security" }
+
+mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockito-kt" }
 springframework-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test" }
+springframework-security-test = { group = "org.springframework.security", name = "spring-security-test" }
 
 jsonwebtoken-jjwt-api = { group = "io.jsonwebtoken", name = "jjwt-api", version.ref = "jwt" }
 jsonwebtoken-jjwt-impl = { group = "io.jsonwebtoken", name = "jjwt-impl", version.ref = "jwt" }

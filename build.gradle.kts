@@ -30,7 +30,9 @@ dependencies {
     implementation(libs.jsonwebtoken.jjwt.impl)
     implementation(libs.jsonwebtoken.jjwt.jackson)
 
+    testImplementation(libs.mockito.kotlin)
     testImplementation(libs.springframework.boot.starter.test)
+    testImplementation(libs.springframework.security.test)
 }
 
 tasks.withType<KotlinCompile> {
