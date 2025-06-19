@@ -1,9 +1,9 @@
-package com.github.pedroluis02.springsecuritysample.apirestful.controller
+package com.github.pedroluis02.springsecuritysample.restfulapi.controller
 
-import com.github.pedroluis02.springsecuritysample.apirestful.mapper.mapToList
-import com.github.pedroluis02.springsecuritysample.apirestful.mapper.toDto
 import com.github.pedroluis02.springsecuritysample.domain.model.Account
 import com.github.pedroluis02.springsecuritysample.domain.repository.AccountRepository
+import com.github.pedroluis02.springsecuritysample.restfulapi.mapper.mapToList
+import com.github.pedroluis02.springsecuritysample.restfulapi.mapper.toDto
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable

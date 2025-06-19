@@ -1,4 +1,4 @@
-package com.github.pedroluis02.springsecuritysample.apirestful.mapper
+package com.github.pedroluis02.springsecuritysample.restfulapi.mapper
 
 import java.util.function.Function
 import java.util.stream.Collectors

@@ -1,4 +1,4 @@
-package com.github.pedroluis02.springsecuritysample.apirestful.dto
+package com.github.pedroluis02.springsecuritysample.restfulapi.dto
 
 data class UserResultDto(
     val id: Long,

@@ -1,8 +1,8 @@
-package com.github.pedroluis02.springsecuritysample.apirestful.controller
+package com.github.pedroluis02.springsecuritysample.restfulapi.controller
 
-import com.github.pedroluis02.springsecuritysample.apirestful.dto.UserRequestDto
-import com.github.pedroluis02.springsecuritysample.apirestful.mapper.toDto
 import com.github.pedroluis02.springsecuritysample.domain.service.UserService
+import com.github.pedroluis02.springsecuritysample.restfulapi.dto.UserRequestDto
+import com.github.pedroluis02.springsecuritysample.restfulapi.mapper.toDto
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
